@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FF3B14D218CC2B510003B8DA /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FF3B14D118CC2B510003B8DA /* images.jpeg */; };
 		FF3B14D418CC2BED0003B8DA /* applications-internet_full.png in Resources */ = {isa = PBXBuildFile; fileRef = FF3B14D318CC2BED0003B8DA /* applications-internet_full.png */; };
-		FF9AC56F18CC0BC80056DBC0 /* RTLayerRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9AC56E18CC0BC80056DBC0 /* RTLayerRenderer.m */; };
 		FFFB58F918CABDB10046366C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFFB58F818CABDB10046366C /* Foundation.framework */; };
 		FFFB58FB18CABDB10046366C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFFB58FA18CABDB10046366C /* CoreGraphics.framework */; };
 		FFFB58FD18CABDB10046366C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFFB58FC18CABDB10046366C /* UIKit.framework */; };
@@ -38,10 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FF3B14D118CC2B510003B8DA /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
 		FF3B14D318CC2BED0003B8DA /* applications-internet_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "applications-internet_full.png"; sourceTree = "<group>"; };
-		FF9AC56D18CC0BC80056DBC0 /* RTLayerRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTLayerRenderer.h; sourceTree = "<group>"; };
-		FF9AC56E18CC0BC80056DBC0 /* RTLayerRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTLayerRenderer.m; sourceTree = "<group>"; };
 		FFFB58F518CABDB10046366C /* LayerTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LayerTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFFB58F818CABDB10046366C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FFFB58FA18CABDB10046366C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -123,7 +118,6 @@
 			children = (
 				FFFB590718CABDB10046366C /* RTAppDelegate.h */,
 				FFFB590818CABDB10046366C /* RTAppDelegate.m */,
-				FF3B14D118CC2B510003B8DA /* images.jpeg */,
 				FF3B14D318CC2BED0003B8DA /* applications-internet_full.png */,
 				FFFB590A18CABDB10046366C /* Main_iPhone.storyboard */,
 				FFFB590D18CABDB10046366C /* Main_iPad.storyboard */,
@@ -131,8 +125,6 @@
 				FFFB591118CABDB10046366C /* RTViewController.m */,
 				FFFB591318CABDB10046366C /* Images.xcassets */,
 				FFFB58FF18CABDB10046366C /* Supporting Files */,
-				FF9AC56D18CC0BC80056DBC0 /* RTLayerRenderer.h */,
-				FF9AC56E18CC0BC80056DBC0 /* RTLayerRenderer.m */,
 			);
 			path = LayerTests;
 			sourceTree = "<group>";
@@ -244,7 +236,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFFB590F18CABDB10046366C /* Main_iPad.storyboard in Resources */,
-				FF3B14D218CC2B510003B8DA /* images.jpeg in Resources */,
 				FFFB591418CABDB10046366C /* Images.xcassets in Resources */,
 				FFFB590C18CABDB10046366C /* Main_iPhone.storyboard in Resources */,
 				FF3B14D418CC2BED0003B8DA /* applications-internet_full.png in Resources */,
@@ -269,7 +260,6 @@
 			files = (
 				FFFB590918CABDB10046366C /* RTAppDelegate.m in Sources */,
 				FFFB591218CABDB10046366C /* RTViewController.m in Sources */,
-				FF9AC56F18CC0BC80056DBC0 /* RTLayerRenderer.m in Sources */,
 				FFFB590518CABDB10046366C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
