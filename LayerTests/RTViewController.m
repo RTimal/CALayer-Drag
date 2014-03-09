@@ -16,6 +16,7 @@ typedef NS_ENUM(NSInteger, LayerState){
 @interface RTViewController ()
 
 @property (nonatomic , strong) CALayer *topLayer;
+@property (nonatomic , strong) CALayer *topLayer2;
 @property (nonatomic, assign) LayerState currentLayerState;
 @property (nonatomic, assign) CGPoint oldPoint;
 
@@ -35,6 +36,17 @@ typedef NS_ENUM(NSInteger, LayerState){
 	self.topLayer.position = CGPointMake(130.f,250.f);
 	self.topLayer.bounds = CGRectMake(0.f, 0.f, 200.f,200.f);
 	[self.view.layer insertSublayer:self.topLayer above:self.view.layer];
+	
+	
+	self.topLayer2 = [CALayer layer];
+	UIImage *appleImage2 = [UIImage imageNamed:@"applications-internet_full.png"];
+	self.topLayer2.contents = (__bridge id)([appleImage CGImage]);
+	CATransform3D perspectiveTransform2 = CATransform3DIdentity;
+	perspectiveTransform2.m34 = -1/500.f;
+	self.view.layer.sublayerTransform = perspectiveTransform2;
+	self.topLayer2.position = CGPointMake(130.f,250.f);
+	self.topLayer2.bounds = CGRectMake(0.f, 0.f, 200.f,200.f);
+	[self.view.layer insertSublayer:self.topLayer2 above:self.view.layer];
 }
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
